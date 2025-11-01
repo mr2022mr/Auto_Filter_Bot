@@ -1,9 +1,9 @@
 class script(object):
-    START_TXT = """<b><u>🎥 MovieZ RockerZ ~ 2022🍿</u></b>
+    START_TXT = """<b><u> 🎥 MovieZ RockerZ ~ 2022🍿 </u></b>
 
 <b>ʜᴇʏ {}, {}</b>
 
-<b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ❤️ MR 2022 ~ MoviE SearcH BoT !</b>
+<b>❤️ MR 2022 ~ MoviE SearcH BoT !</b>
 """
 
 
@@ -11,7 +11,7 @@ class script(object):
 
 <b>ʜᴇʏ {},</b>
 
-<b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ❤️ MR 2022 ~ MoviE SearcH BoT !</b>"""
+<b>❤️ MR 2022 ~ MoviE SearcH BoT !</b>"""
 
     
     HELP_TXT = """<b>
