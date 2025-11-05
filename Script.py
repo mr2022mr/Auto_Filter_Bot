@@ -14,7 +14,7 @@ class script(object):
 <b>❤️ MR 2022 ~ MoviE SearcH BoT !</b>"""
 
     
-    HELP_TXT = """<b>
+    HELP_TXT = """<b>MR ~ 2022 ♥️ https://t.me/moviezrockerz1
     
 ✨ ʜᴏᴡ ᴛᴏ ʀᴇǫᴜᴇꜱᴛ ᴅʀᴀᴍᴀꜱ & ᴍᴏᴠɪᴇꜱ ✨  
 
