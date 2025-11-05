@@ -81,11 +81,9 @@ async def start(client, message):
         await dlt.delete()
         return         
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
-        buttons = [[
-                    InlineKeyboardButton('❤️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❤️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('🍁 Update Channel 🍁', url=UPDATE_CHNL_LNK)
-                  ]]
+        buttons = [
+                    [InlineKeyboardButton('🍁 Update Channel 🍁', url=UPDATE_CHNL_LNK)]
+                  ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.GSTART_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
         await asyncio.sleep(2) 
